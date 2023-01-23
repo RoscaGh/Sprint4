@@ -3,7 +3,7 @@
     padding: 0px;
     text-align: center;
   }
-
+  
 div.gallery {
     margin: 10px;
     padding: 5px;
@@ -31,4 +31,11 @@ div.gallery {
     padding: 10px;
     text-align: center;
   }
-
+/* Raiting star */
+.fa-star{
+  color:rgb(82, 81, 81);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.checked {
+  color: orange;
+}
