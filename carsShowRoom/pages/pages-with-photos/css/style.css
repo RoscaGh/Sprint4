@@ -12,8 +12,8 @@ div.gallery {
     box-shadow: 2px 2px 8px;
     display: inline-block;
     width: 220px;
-    position: relative;
     height: auto;
+    position: relative;
     transition: transform 0.3s;
   }
   div.gallery img {
