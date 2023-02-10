@@ -1,0 +1,65 @@
+h1{
+    font-size: 20px;
+}
+table.wr3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+}
+
+table.wr3 td,  th {
+    border: 1px solid rgb(27, 25, 25);
+    padding: 8px;
+}
+
+table.wr3 tr:nth-child(even){background-color: #b5b5b5;}
+table.wr3 td:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+}
+table.student{
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.4;
+    background-color: #fff;
+    padding-left: 20px
+}
+table.student  th{
+    font-family: Lato-Bold;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6c7ae0;
+    text-align: left;
+    border: none;
+    padding-left: 20px
+}
+table.student  td{
+    padding-left: 20px
+}
+table.student tr:nth-child(even){
+    background-color: #f8f6ff;
+}
+div#stud{              
+    display: flex;
+    vertical-align: top;
+    text-align: center;
+    width: 80%;
+    margin: 5px auto;
+}
+div.std{
+    display: inline-block;
+    margin:10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px #888888;
+}

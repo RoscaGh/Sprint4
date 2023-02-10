@@ -1,20 +1,20 @@
 // ==============Solution for Object task ==================
-let student={   "FName": "John",
-                "LName": "Smith",
-                "AvgScore": 8.7};
+let student={   FName: "John",
+                LName: "Smith",
+                AvgScore: 8.7};
 console.log("6. Object student ");
 console.log(`${student.FName} ${student.LName} - ${student.AvgScore}`);
 //=================Solution for array of object =========================
-let students=[  { "FName": "John", "LName": "Smith", "AvgScore": 8.7},
-                { "FName": "Chilaru", "LName": "Ion", "AvgScore": 3.45},
-                { "FName": "Babuci", "LName": "Vasile", "AvgScore": 5.67},
-                { "FName": "Prepelița", "LName": "Iana", "AvgScore": 2.22},
-                { "FName": "Burac", "LName": "Aliona", "AvgScore": 9.80},
-                { "FName": "Chipăruș", "LName": "Maxim", "AvgScore": 2.75},
-                { "FName": "Bostan", "LName": "Virgil", "AvgScore": 4.35},
-                { "FName": "Curichere", "LName": "Eugen", "AvgScore": 5.00},
-                { "FName": "Alexei", "LName": "Teofil", "AvgScore": 10.00},
-                { "FName": "Țurcanu", "LName": "Daniel", "AvgScore": 9.47}];
+let students=[  { FName: "John", LName: "Smith", AvgScore: 8.7},
+                { FName: "Chilaru", LName: "Ion", AvgScore: 3.45},
+                { FName: "Babuci", LName: "Vasile", AvgScore: 5.67},
+                { FName: "Prepelița", LName: "Iana", AvgScore: 2.22},
+                { FName: "Burac", LName: "Aliona", AvgScore: 9.80},
+                { FName: "Chipăruș", LName: "Maxim", AvgScore: 2.75},
+                { FName: "Bostan", LName: "Virgil", AvgScore: 4.35},
+                { FName: "Curichere", LName: "Eugen", AvgScore: 5.00},
+                { FName: "Alexei", LName: "Teofil", AvgScore: 10.00},
+                { FName: "Țurcanu", LName: "Daniel", AvgScore: 9.47}];
 let aboveGPA = [];
 let belowGPA = [];
 // Select students with AVG>=5
@@ -30,6 +30,7 @@ students.forEach(std => {
 createTabel("tab1","allStudent",students);
 createTabel("tab2","aboveStudent",aboveGPA);
 createTabel("tab3","belowStudent",belowGPA);
+
 
 function createTabel(tab1,tabData,students){
 var mdiv=document.createElement("DIV");
